@@ -1,0 +1,20 @@
+{
+  "collection_date": "2026-02-01T12:20:59.697946",
+  "videos": {
+    "total_count": 5,
+    "total_views": 170316,
+    "total_likes": 1739,
+    "total_comments": 820,
+    "avg_engagement_rate": 2.6422793889581397
+  },
+  "comments": {
+    "total_count": 169,
+    "sentiment_distribution": {
+      "neutral": 112,
+      "positive": 32,
+      "negative": 25
+    },
+    "avg_sentiment_polarity": 0.02828851170197324,
+    "avg_sentiment_subjectivity": 0.27871396231973156
+  }
+}
