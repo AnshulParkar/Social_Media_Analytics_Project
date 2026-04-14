@@ -54,7 +54,7 @@ LOCATION_CSV = os.path.join(SCRIPT_DIR, "location_data.csv")
 
 # Load env
 load_dotenv(os.path.join(ROOT_DIR, ".env"))
-YOUTUBE_API_KEY = os.getenv("YOUTUBEAPI")
+YOUTUBE_API = os.getenv("YOUTUBE_API")
 NEWS_API_KEY = os.getenv("NEWSAPI")
 
 # Load spaCy (cached)
@@ -90,11 +90,11 @@ def load_all_data():
 
 def collect_youtube_live(keywords, max_results=5):
     """Collect fresh YouTube data."""
-    if not YOUTUBE_API_KEY:
+    if not YOUTUBE_API:
         return pd.DataFrame()
     try:
         from googleapiclient.discovery import build
-        youtube = build("youtube", "v3", developerKey=YOUTUBE_API_KEY)
+        youtube = build("youtube", "v3", developerKey=YOUTUBE_API)
         all_videos = []
         for keyword in keywords:
             try:
