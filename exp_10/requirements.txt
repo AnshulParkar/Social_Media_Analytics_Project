@@ -1,0 +1,16 @@
+torch
+torchvision
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+Pillow
+requests
+streamlit
+plotly
+wordcloud
+streamlit-autorefresh
+folium
+streamlit-folium
+opencv-python
