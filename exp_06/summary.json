@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-04-15T11:19:24.906217",
+  "total_nodes": 2317,
+  "total_edges": 5778,
+  "node_types": {
+    "region": 30,
+    "topic": 7,
+    "source": 185,
+    "content": 2095
+  },
+  "data_sources": {
+    "youtube_videos": 120,
+    "youtube_comments": 1710,
+    "news_articles": 365,
+    "rss_entries": 19
+  },
+  "top_risk_regions": [
+    "Israel",
+    "Ukraine",
+    "Russia",
+    "Sudan",
+    "US"
+  ],
+  "avg_fused_sentiment": 0.0
+}
